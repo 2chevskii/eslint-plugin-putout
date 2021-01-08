@@ -1,0 +1,59 @@
+{
+  "name": "eslint-plugin-putout",
+  "version": "6.11.1",
+  "description": "eslint plagin for putout",
+  "release": false,
+  "tag": false,
+  "changelog": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/putout.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "coderaiser",
+  "main": "lib/index.js",
+  "scripts": {
+    "wisdom": "madrun wisdom",
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "debug": "madrun debug"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/plugin-syntax-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-top-level-await": "^7.12.1",
+    "@babel/plugin-syntax-typescript": "^7.12.1",
+    "@putout/eslint-config": "^4.0.0",
+    "align-spaces": "^1.0.0",
+    "eslint-plugin-node": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-plugin-eslint-plugin": "^2.1.0",
+    "madrun": "^8.0.1",
+    "mocha": "^5.2.0",
+    "montag": "^1.0.0",
+    "nyc": "^15.0.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "peerDependencies": {
+    "eslint": ">=7",
+    "putout": ">=11.0.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

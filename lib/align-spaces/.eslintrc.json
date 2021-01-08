@@ -1,0 +1,9 @@
+{
+    "overrides": [{
+        "files": "*.md{js}",
+        "rules": {
+            "putout/align-spaces": "off",
+            "indent": "off"
+        }
+    }]
+}
