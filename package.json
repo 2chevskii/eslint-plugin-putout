@@ -1,13 +1,13 @@
 {
-  "name": "eslint-plugin-putout",
-  "version": "6.11.1",
-  "description": "eslint plagin for putout",
+  "name": "@2chevskii/eslint-plugin-putout",
+  "version": "1.0.0",
+  "description": "Modified eslint-plugin-putout",
   "release": false,
   "tag": false,
   "changelog": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/putout.git"
+    "url": "git://github.com/2chevskii/eslint-plugin-putout.git"
   },
   "keywords": [
     "eslint",
@@ -15,6 +15,11 @@
     "eslint-plugin"
   ],
   "author": "coderaiser",
+  "contributors": [
+      {
+          "name": "2chevskii"
+      }
+  ],
   "main": "lib/index.js",
   "scripts": {
     "wisdom": "madrun wisdom",
@@ -41,7 +46,7 @@
     "eslint": "^7.0.0",
     "eslint-plugin-eslint-plugin": "^2.1.0",
     "madrun": "^8.0.1",
-    "mocha": "^5.2.0",
+    "mocha": "^8.2.1",
     "montag": "^1.0.0",
     "nyc": "^15.0.1"
   },
